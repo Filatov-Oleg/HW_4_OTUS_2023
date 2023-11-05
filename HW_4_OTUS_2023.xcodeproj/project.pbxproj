@@ -11,6 +11,16 @@
 		1E78D3122AEA7A540032E014 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E78D3112AEA7A540032E014 /* ContentView.swift */; };
 		1E78D3142AEA7A550032E014 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E78D3132AEA7A550032E014 /* Assets.xcassets */; };
 		1E78D3172AEA7A550032E014 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E78D3162AEA7A550032E014 /* Preview Assets.xcassets */; };
+		1EC439062AF63AF900596A86 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 1EC439052AF63AF900596A86 /* ComposableArchitecture */; };
+		1EC439082AF6436800596A86 /* CarsFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC439072AF6436800596A86 /* CarsFeature.swift */; };
+		1EC4390A2AF6466F00596A86 /* CarDetailFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC439092AF6466F00596A86 /* CarDetailFeature.swift */; };
+		1EC4390C2AF652E300596A86 /* CarsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC4390B2AF652E300596A86 /* CarsScreen.swift */; };
+		1EC4390E2AF652F900596A86 /* CarDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC4390D2AF652F800596A86 /* CarDetailScreen.swift */; };
+		1ECF9D4F2AF7D75600CB7180 /* ServiceLoactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECF9D4E2AF7D75600CB7180 /* ServiceLoactor.swift */; };
+		1ECF9D512AF7D76D00CB7180 /* ServiceLocatorConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECF9D502AF7D76D00CB7180 /* ServiceLocatorConfiguration.swift */; };
+		1ECF9D532AF7D79E00CB7180 /* InjectedWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECF9D522AF7D79E00CB7180 /* InjectedWrapper.swift */; };
+		1ECF9D572AF7D90300CB7180 /* NetwotkService in Frameworks */ = {isa = PBXBuildFile; productRef = 1ECF9D562AF7D90300CB7180 /* NetwotkService */; };
+		1ECF9D5C2AF7ED0400CB7180 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECF9D5B2AF7ED0400CB7180 /* Car.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +29,15 @@
 		1E78D3112AEA7A540032E014 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1E78D3132AEA7A550032E014 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E78D3162AEA7A550032E014 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1EC439072AF6436800596A86 /* CarsFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarsFeature.swift; sourceTree = "<group>"; };
+		1EC439092AF6466F00596A86 /* CarDetailFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDetailFeature.swift; sourceTree = "<group>"; };
+		1EC4390B2AF652E300596A86 /* CarsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarsScreen.swift; sourceTree = "<group>"; };
+		1EC4390D2AF652F800596A86 /* CarDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDetailScreen.swift; sourceTree = "<group>"; };
+		1ECF9D4E2AF7D75600CB7180 /* ServiceLoactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceLoactor.swift; sourceTree = "<group>"; };
+		1ECF9D502AF7D76D00CB7180 /* ServiceLocatorConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceLocatorConfiguration.swift; sourceTree = "<group>"; };
+		1ECF9D522AF7D79E00CB7180 /* InjectedWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InjectedWrapper.swift; sourceTree = "<group>"; };
+		1ECF9D542AF7D8EB00CB7180 /* NetwotkService */ = {isa = PBXFileReference; lastKnownFileType = text; path = NetwotkService; sourceTree = SOURCE_ROOT; };
+		1ECF9D5B2AF7ED0400CB7180 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +45,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EC439062AF63AF900596A86 /* ComposableArchitecture in Frameworks */,
+				1ECF9D572AF7D90300CB7180 /* NetwotkService in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,6 +58,7 @@
 			children = (
 				1E78D30E2AEA7A540032E014 /* HW_4_OTUS_2023 */,
 				1E78D30D2AEA7A540032E014 /* Products */,
+				1ECF9D552AF7D90300CB7180 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,6 +73,9 @@
 		1E78D30E2AEA7A540032E014 /* HW_4_OTUS_2023 */ = {
 			isa = PBXGroup;
 			children = (
+				1ECF9D592AF7ECDF00CB7180 /* Flux */,
+				1ECF9D582AF7ECBF00CB7180 /* Screens */,
+				1ECF9D542AF7D8EB00CB7180 /* NetwotkService */,
 				1E78D30F2AEA7A540032E014 /* HW_4_OTUS_2023App.swift */,
 				1E78D3112AEA7A540032E014 /* ContentView.swift */,
 				1E78D3132AEA7A550032E014 /* Assets.xcassets */,
@@ -62,9 +87,54 @@
 		1E78D3152AEA7A550032E014 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				1ECF9D4D2AF7D74500CB7180 /* DependencyInjection */,
 				1E78D3162AEA7A550032E014 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1ECF9D4D2AF7D74500CB7180 /* DependencyInjection */ = {
+			isa = PBXGroup;
+			children = (
+				1ECF9D4E2AF7D75600CB7180 /* ServiceLoactor.swift */,
+				1ECF9D502AF7D76D00CB7180 /* ServiceLocatorConfiguration.swift */,
+				1ECF9D522AF7D79E00CB7180 /* InjectedWrapper.swift */,
+			);
+			path = DependencyInjection;
+			sourceTree = "<group>";
+		};
+		1ECF9D552AF7D90300CB7180 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1ECF9D582AF7ECBF00CB7180 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				1EC439072AF6436800596A86 /* CarsFeature.swift */,
+				1EC4390D2AF652F800596A86 /* CarDetailScreen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		1ECF9D592AF7ECDF00CB7180 /* Flux */ = {
+			isa = PBXGroup;
+			children = (
+				1ECF9D5A2AF7ECF200CB7180 /* Models */,
+				1EC439092AF6466F00596A86 /* CarDetailFeature.swift */,
+				1EC4390B2AF652E300596A86 /* CarsScreen.swift */,
+			);
+			path = Flux;
+			sourceTree = "<group>";
+		};
+		1ECF9D5A2AF7ECF200CB7180 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1ECF9D5B2AF7ED0400CB7180 /* Car.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +153,10 @@
 			dependencies = (
 			);
 			name = HW_4_OTUS_2023;
+			packageProductDependencies = (
+				1EC439052AF63AF900596A86 /* ComposableArchitecture */,
+				1ECF9D562AF7D90300CB7180 /* NetwotkService */,
+			);
 			productName = HW_4_OTUS_2023;
 			productReference = 1E78D30C2AEA7A540032E014 /* HW_4_OTUS_2023.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +185,9 @@
 				Base,
 			);
 			mainGroup = 1E78D3032AEA7A540032E014;
+			packageReferences = (
+				1EC439042AF63AF900596A86 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+			);
 			productRefGroup = 1E78D30D2AEA7A540032E014 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +214,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EC4390C2AF652E300596A86 /* CarsScreen.swift in Sources */,
 				1E78D3122AEA7A540032E014 /* ContentView.swift in Sources */,
+				1ECF9D4F2AF7D75600CB7180 /* ServiceLoactor.swift in Sources */,
+				1ECF9D512AF7D76D00CB7180 /* ServiceLocatorConfiguration.swift in Sources */,
+				1EC439082AF6436800596A86 /* CarsFeature.swift in Sources */,
+				1EC4390A2AF6466F00596A86 /* CarDetailFeature.swift in Sources */,
+				1ECF9D5C2AF7ED0400CB7180 /* Car.swift in Sources */,
+				1EC4390E2AF652F900596A86 /* CarDetailScreen.swift in Sources */,
 				1E78D3102AEA7A540032E014 /* HW_4_OTUS_2023App.swift in Sources */,
+				1ECF9D532AF7D79E00CB7180 /* InjectedWrapper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +424,29 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1EC439042AF63AF900596A86 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1EC439052AF63AF900596A86 /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1EC439042AF63AF900596A86 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+		1ECF9D562AF7D90300CB7180 /* NetwotkService */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = NetwotkService;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1E78D3042AEA7A540032E014 /* Project object */;
 }

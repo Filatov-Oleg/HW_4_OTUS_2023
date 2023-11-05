@@ -6,12 +6,20 @@
 //
 
 import SwiftUI
+import ComposableArchitecture
 
 @main
 struct HW_4_OTUS_2023App: App {
+    
+    init() {
+        ServiceLocatorConfiguration.shared.createServices()
+    }
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CarsScreen(store: Store(initialState: CarsFeature.State(), reducer: {
+                CarsFeature()
+            }))
         }
     }
 }
