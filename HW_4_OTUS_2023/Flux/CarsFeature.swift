@@ -30,8 +30,7 @@ struct CarsFeature: Reducer {
         Reduce { state, action in
             switch action {
             case .fetchCars:
-                let carss = state.networkService?.getCars().map {Car(from: $0)}
-                state.cars = carss ?? []
+                state.cars = state.networkService?.getCars().map {Car(from: $0)} ?? []
                 return .none
             case .openDetailCar:
                 return .none
